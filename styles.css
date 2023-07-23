@@ -1,0 +1,50 @@
+.header {
+    background-color: rgb(121, 17, 219);
+    padding: 0 30px 20px 0;
+}
+.title{
+    color: white;
+    margin: 0 0 0 20px;
+}
+.container{
+    display: flex;
+}
+.content {
+    flex: 1;
+    margin: 0 0 0 20px;
+}
+.content {
+    color: white;
+}
+.image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding-top: -100px;
+}
+
+.personal-info{
+    margin-top: -20px;
+    height: 40px;
+    background-color: rgb(203, 168, 235);
+}
+.top-list{
+    padding-top: 10px;
+}
+.list {
+    display: inline;
+    list-style: none;
+    margin-right: 120px;
+}
+.list a{
+    text-decoration: none; 
+}
+.left section {display: flex;}
+.Riht-section {
+    float: right;
+}
+.section-title {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
