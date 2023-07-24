@@ -61,11 +61,6 @@
 .second-column {
     padding-left: 300px;
 }
-@media (max-width:600px) {
-    .section-title{
-        background-color: rgb(223, 220, 245);
-    } 
-}
 @media (max-width:700px) {
     body {
         background-color: rgb(236, 215, 255);
