@@ -6,6 +6,7 @@
     margin: 0 0 0 20px;
     padding: 10px 0 0 0 ;
     font-weight: 700;
+    font-size: x-large;
 }
 .container{
     display: flex;
@@ -22,13 +23,15 @@
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    padding-top: -100px;
+    margin-right: 100px;
+    padding-bottom: 30px;
 }
 
 .personal-info{
     margin-top: -20px;
     height: 40px;
     background-color: rgb(203, 168, 235);
+    padding-left: 200px;
 }
 .top-list{
     padding-top: 10px;
@@ -50,13 +53,13 @@
     border-radius: 10%;
     color: white;
     padding: 10px 10px 10px 10px;
+    text-align: center;
 }
 .column {
     display: flex;
-    justify-content:space-around;
 }
 .first-column {
-    padding-left: 100px;
+    padding-left: 50px;
 }
 .second-column {
     padding-left: 300px;
@@ -65,4 +68,10 @@
     body {
         background-color: rgb(236, 215, 255);
     }
+}
+.headers {
+    font-size: large;
+}
+.text {
+    font-size: larger;
 }
