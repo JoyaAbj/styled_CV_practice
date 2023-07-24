@@ -1,5 +1,6 @@
 .header {
     background-color: rgb(121, 17, 219);
+    width: 100%;
 }
 .title{
     color: white;
@@ -8,8 +9,22 @@
     font-weight: 700;
     font-size: x-large;
 }
+.description {
+    font-size: large;
+    font-weight: 400;
+}
 .container{
     display: flex;
+    width: 100%;
+}
+@media (max-width: 820px){
+    .container{
+        display: flex;
+        width: fit-content;
+    }
+    .description{
+        text-align: justify;
+    }
 }
 .content {
     flex: 1;
@@ -22,9 +37,9 @@
 .image {
     height: 200px;
     width: 200px;
-    border-radius: 50%;
-    margin-right: 100px;
-    padding-bottom: 30px;
+    border-radius: 80%;
+    margin-right: 50px;
+    padding-bottom: 20px;
 }
 
 .personal-info{
@@ -32,6 +47,21 @@
     height: 40px;
     background-color: rgb(203, 168, 235);
     padding-left: 200px;
+}
+@media (max-width: 820px){
+    .personal-info {
+        padding: 0;
+        margin-left: 0;
+        font-size: small;
+    }
+    .second-column{
+        padding-left: 0 !important;
+    }
+    .list  {
+        display: inline;
+        list-style: none;
+        margin-right: 60px !important;
+    }
 }
 .top-list{
     padding-top: 10px;
@@ -42,7 +72,8 @@
     margin-right: 120px;
 }
 .list a{
-    text-decoration: none; 
+    text-decoration: none;
+    color: rgb(43, 39, 45); 
 }
 .section-title {
     color: blueviolet;
@@ -57,17 +88,13 @@
 }
 .column {
     display: flex;
+    width: 100%;
 }
 .first-column {
     padding-left: 50px;
 }
 .second-column {
-    padding-left: 300px;
-}
-@media (max-width:700px) {
-    body {
-        background-color: rgb(236, 215, 255);
-    }
+    padding-left: 400px;
 }
 .headers {
     font-size: large;
